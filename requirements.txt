@@ -1,0 +1,7 @@
+audio_recorder_streamlit
+streamlit_float
+openai
+streamlit
+gTTS
+sounddevice
+wavio
