@@ -2,7 +2,7 @@
 
 A Streamlit-based conversational chatbot powered by Mesolitica's Mallam API, featuring speech-to-text and text-to-speech capabilities in Bahasa Malaysia.
 
-## Features ✨
+## Features
 
 - Real-time voice input and audio response
 - Text-based chat interface
@@ -16,7 +16,7 @@ A Streamlit-based conversational chatbot powered by Mesolitica's Mallam API, fea
 - Mesolitica API key
 - Internet connection
 
-## Installation 🛠️
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -29,7 +29,7 @@ cd mallam-STT--TTS
 pip install -r requirements.txt
 ```
 
-## Usage 🚀
+## Usage
 
 1. Start the application:
 ```bash
@@ -40,20 +40,20 @@ streamlit run app.py
 3. Start chatting using voice or text input
 4. Enjoy automatic audio responses in Bahasa Malaysia!
 
-## Configuration ⚙️
+## Configuration
 
 The chatbot can be customized through the following settings in the sidebar:
 - API key input
 - Chat history clearing
 - Audio response settings
 
-## Contributing 🤝
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch
 3. Submit a pull request
 
-## Acknowledgments 👏
+## Acknowledgments
 
 - [Mesolitica](https://mesolitica.com/) for the Mallam API
 - Streamlit for the web framework

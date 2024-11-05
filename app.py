@@ -4,6 +4,8 @@ from utils import autoplay_audio, get_answer_mallam, speech_to_text_mallam, text
 from audio_recorder_streamlit import audio_recorder
 from streamlit_float import *
 
+st.set_page_config(page_title="Mallam Chatbot", page_icon="🌙", layout="wide")
+
 # Float feature initialization
 float_init()
 
@@ -34,7 +36,7 @@ with st.sidebar:
         
     st.markdown("Powered by [Mesolitica](https://mesolitica.com/)'s Mallam API, built with 💖 by [Faris Faiz](https://www.linkedin.com/in/muhammad-faris-ahmad-faiz-ab9b35212/)")
 
-st.title("OpenAI Conversational Chatbot 🤖")
+st.title("🌙 Mallam Conversational Chatbot 🤖")
 
 if not st.session_state.api_key:
     st.warning("Please enter your Mesolitica API key in the sidebar to continue.")
