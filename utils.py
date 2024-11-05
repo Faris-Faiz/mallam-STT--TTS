@@ -1,5 +1,4 @@
 from openai import OpenAI
-import os
 import base64
 import streamlit as st
 import requests
@@ -60,17 +59,6 @@ def speech_to_text_mallam(audio_file_path):
     else:
         st.error(f"Error in transcription: {response.text}")
         return None
-
-def text_to_speech(input_text):
-    response = client.audio.speech.create(
-        model="tts-1",
-        voice="nova",
-        input=input_text
-    )
-    webm_file_path = "temp_audio_play.mp3"
-    with open(webm_file_path, "wb") as f:
-        response.stream_to_file(webm_file_path)
-    return webm_file_path
 
 def text_to_speech_googletts(input_text):
     tts = gTTS(input_text, lang="ms")

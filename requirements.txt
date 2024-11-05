@@ -1,7 +1,7 @@
+streamlit
 audio_recorder_streamlit
 streamlit_float
 openai
-streamlit
+requests
 gTTS
-sounddevice
-wavio
+ipython
